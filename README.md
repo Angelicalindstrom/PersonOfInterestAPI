@@ -19,7 +19,7 @@ FkPersonsId & FkInterestsId
 
 GET/personinterests - get all PersonInterests
 POST/personinterests - add new PersonInterest 
-( you can also POST a new person and a new Interest at the same time, while adding new PersonInterest)
+( you can also add a new person and a new Interest at the same time, while adding new PersonInterest)
 {
   "personInterestId": 0,
   "fkPersonId": 0,

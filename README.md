@@ -26,7 +26,7 @@ POST/personinterests - add new PersonInterest
   "person": {
     "personId": 0,
     "personName": "Jennie",
-    "personEmail": "jennie@ gmail .com",
+    "personEmail": "jennie @ gmail .com",
     "personPhoneNumber": "0745855669"
   },
   "fkInterestId": 0,
@@ -48,7 +48,7 @@ POST/links - add new links, connect to person and interest using FkPersonInteres
 (You can also add a new Person, new Interest and new PersonInterest at the same time, while adding new Link)
 {
   "linkId": 0,
-  "linkUrl": "https://www.  marvel . com/",
+  "linkUrl": "https://www .  marvel . com/",
   "fkPersonInterestId": 0,
   "personInterest": {
     "personInterestId": 0,
